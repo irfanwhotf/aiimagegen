@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "buildConfig": {
+    "nodeVersion": "18"
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_API_KEY": "",
+    "NEXT_PUBLIC_BASE_URL": "",
+    "NEXT_PUBLIC_MODEL": ""
+  }
+}
