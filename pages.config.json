@@ -1,9 +1,15 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "npm install && npm run build",
   "outputDirectory": ".next",
   "framework": "nextjs",
   "buildConfig": {
     "nodeVersion": "18.17.1"
+  },
+  "build": {
+    "command": "npm run build",
+    "environment": {
+      "NODE_VERSION": "18.17.1"
+    }
   },
   "routes": [
     {
