@@ -1,9 +1,9 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": ".next/static",
+  "outputDirectory": ".next",
   "framework": "nextjs",
   "buildConfig": {
-    "nodeVersion": "18"
+    "nodeVersion": "18.17.1"
   },
   "routes": [
     {
